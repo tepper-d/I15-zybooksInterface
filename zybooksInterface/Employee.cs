@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using zybooksInterface;
 
 /* **************************************************
  * CIS123: Introduction to Object-oriented Programming
@@ -18,7 +19,21 @@ using System.Threading.Tasks;
 
 namespace zybooksInterface
 {
-    internal class Employee
+    public class Employee : IPerson
     {
+        public string Name { get; set; } = "Snoop Tepper";
+
+        public string Title { get; set; } = "Chief Security Officer";
+        public string Bye { get; set; } = "Toodles!";
+
+        public void SayHello()
+        {
+            Console.WriteLine($"How's it going! I'm {Name} the {Title}. How can I help?");
+        }
+
+        public void SayGoodbye()
+        {
+            Console.WriteLine($"{Bye}");
+        }
     }
 }

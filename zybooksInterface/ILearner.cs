@@ -17,7 +17,7 @@ namespace zybooksInterface
 {
     interface ILearner : IPerson
     {
-        void Study(string topic);
+        void Study(string major);
     }
 
 }

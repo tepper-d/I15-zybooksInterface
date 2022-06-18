@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace zybooksInterface
 {
-    interface IWorker
+    interface IWorker : IPerson
     {
         void Work(string position);
     }

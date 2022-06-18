@@ -22,15 +22,24 @@ namespace zybooksInterface
     class Student : ILearner
     {
         public string Name { get; set; } = "John Doe";
+        public string Major { get; set; } = "Data Analytics";
+
+        public string CatchPhrase { get; set; } = "Clackclackclack.";
 
         public void SayHello()
         {
             Console.WriteLine($"Hi! I'm {Name}!");
         }
 
-        public void Study(string topic)
+        public void Study(string major)
         {
-            Console.WriteLine($"I'm studying {topic}.");
+            Console.WriteLine($"I'm studying {Major}.");
         }
+
+        public void SayGoodbye()
+        {
+            Console.WriteLine($"{CatchPhrase}");
+        }
+
     }
 }
