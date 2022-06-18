@@ -9,15 +9,15 @@
     <Lollipop Orientation="Bottom" Position="0.725" />
   </Class>
   <Class Name="zybooksInterface.Student">
-    <Position X="10.75" Y="2.25" Width="1.5" />
+    <Position X="8.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEACAAAAAAAAAAAAAAABAQAAAAIAAAAAAAgAAAAAAA=</HashCode>
       <FileName>Student.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Orientation="Left" Position="2.124" />
+    <Lollipop Orientation="Bottom" Position="0.1" />
   </Class>
   <Interface Name="zybooksInterface.ILearner">
-    <Position X="8.5" Y="3.75" Width="1.5" />
+    <Position X="8.5" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ILearner.cs</FileName>
